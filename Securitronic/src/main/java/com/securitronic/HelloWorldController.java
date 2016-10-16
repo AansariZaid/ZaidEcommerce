@@ -35,27 +35,42 @@ public class HelloWorldController {
 
 	}
 
-	@RequestMapping(value = "aboutus")
+	@RequestMapping(value = "/aboutus")
 	public ModelAndView aboutUs() {
 		ModelAndView mv = new ModelAndView("aboutus");
 		return mv;
 	}
 
-	@RequestMapping(value = "contactus")
+	@RequestMapping(value = "/contactus")
 	public ModelAndView contactus() {
 		ModelAndView mv = new ModelAndView("contactus");
 		return mv;
 	}
 
-	@RequestMapping(value = "login")
+	@RequestMapping(value = "/login")
 	public ModelAndView login() {
 		ModelAndView mv = new ModelAndView("login");
 		return mv;
 	}
 
-	@RequestMapping(value = "register")
+	@RequestMapping(value = "/register")
 	public ModelAndView register() {
 		ModelAndView mv = new ModelAndView("register");
 		return mv;
 	}
+	
+	@RequestMapping(value = "/view")
+	public ModelAndView view()
+	{
+		ModelAndView mv = new ModelAndView("view");
+		return mv;
+	}
+	
+	@RequestMapping(value = "/viewall")
+	public ModelAndView viewall()
+	{
+		ModelAndView mv = new ModelAndView("viewall");
+		return mv;
+	}
+	
 }
