@@ -1,4 +1,4 @@
-
+<%@include file="linking.jsp"%>
 <title>Home</title>
 </head>
 <body>
