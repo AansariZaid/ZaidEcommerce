@@ -1,6 +1,6 @@
 
     <%@include file="linking.jsp"%>
-<div>
+<div class = "container">
 
 
 

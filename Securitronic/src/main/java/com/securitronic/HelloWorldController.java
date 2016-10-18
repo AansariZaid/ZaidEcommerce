@@ -1,9 +1,8 @@
 package com.securitronic;
 
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.servlet.ModelAndView;
 
 @Controller
@@ -23,17 +22,19 @@ public class HelloWorldController {
 	 */
 
 	// we can also use modelandview to do the same calling.
-	@Autowired
+
 	
-	@RequestMapping(value = "/", method = RequestMethod.POST)
-	public ModelAndView landingpage() {
+	@RequestMapping(value = "/")
+	public ModelAndView landingpage( ) {
 		ModelAndView mv = new ModelAndView("landingpage");
+		
 		return mv;
 	}
 
 	@RequestMapping(value = "/home")
 	public ModelAndView home() {
 		ModelAndView mv = new ModelAndView("home");
+//		mv.addObject("hi" + name);
 		return mv;
 
 	}
@@ -73,8 +74,6 @@ public class HelloWorldController {
 	public ModelAndView viewall()
 	{
 		ModelAndView mv = new ModelAndView("viewall");
-		//List<productmodel> product = productmodel.toString();
-		//product.add("product", product);
 		return mv;
 	}
 	

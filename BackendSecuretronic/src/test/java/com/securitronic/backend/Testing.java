@@ -1,17 +1,17 @@
-package Niit.BackendSecuretronic;
+package com.securitronic.backend;
 
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
-public class TestRun {
+public class Testing {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext();
-		context.scan("Niit.BackendSecuretronic");
+		context.scan("com.securitronic.backend");
 		context.refresh();
 		ProductDAO productDAO = context.getBean(ProductDAO.class);
-		productmodel p = new productmodel();
-		p.setId(1);
+		ProductModel p = new ProductModel();
+
 		p.setBrand("CP plus");
 		p.setCategory("cctv");
 		p.setName("dome");
