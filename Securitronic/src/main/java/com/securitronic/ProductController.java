@@ -20,7 +20,6 @@ public class ProductController {
 	@RequestMapping(value = { "/product/data" })
 	@ResponseBody
 	List<ProductModel> view() {
-
 		return pDAO.getAll();
 	}
 }

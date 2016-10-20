@@ -17,19 +17,19 @@ public class ProductModel {
 
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
-	@NotNull
+	//@NotNull
 	public int id;
 	@Column
-	@NotNull(message = "Please Enter Product Name")
+//	@NotNull(message = "Please Enter Product Name")
 	public String name;
 	@Column
-	@NotEmpty(message = "Please Enter Brand Name")
+//	@NotEmpty(message = "Please Enter Brand Name")
 	public String brand;
 	@Column
-	@NotEmpty(message = "Please Enter Category")
+//	@NotEmpty(message = "Please Enter Category")
 	public String category;
 	@Column
-	@Size(min=1, message = "Please Enter Price")
+//	@Size(min=1, message = "Please Enter Price")
 	public double price;
 
 	public int getId() {

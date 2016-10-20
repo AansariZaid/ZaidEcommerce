@@ -17,13 +17,13 @@
 				<form:hidden path="id" />
 
 				<form:input path="name" cssClass="form-control" /> &#160;
-				<form:errors path = "name"></form:errors>
+
 				<form:input path="brand" cssClass="form-control" /> &#160;
-				<form:errors path = "brand"></form:errors>
+		
 				<form:input path="category" cssClass="form-control" /> &#160;
-				<form:errors path = "category"></form:errors>
+	
 				<form:input path="price" cssClass="form-control" />
-				<form:errors path = "price"></form:errors>
+	
 				<br>
 				<input type="Submit" value="save" class="btn btn-primary" />
 			</form:form>

@@ -55,7 +55,7 @@ public class AdminController {
 	}
 
 	@RequestMapping(value = "/adminview/save", method = RequestMethod.POST)
-	public String adminSave(@Valid @ModelAttribute("product") ProductModel product, BindingResult results, Model model) {
+	public String adminSave(@Valid @ModelAttribute("product") ProductModel product) {
 
 		/*
 		 * ModelAndView mv = new ModelAndView("adminview"); we can return string
@@ -63,13 +63,13 @@ public class AdminController {
 		 * mv.addObject("products",pDAO.getAll()); return mv;
 		 */
 		
-		if(results.hasErrors()){
-	/*		model.addAttribute("product",product);
-			model.addAttribute("productData",ProductDAO.getAll());*/
+	/*	if(results.hasErrors()){
+			model.addAttribute("product",product);
+			model.addAttribute("productData",ProductDAO.getAll());
 			return("adminview");
 			
 			
-		}
+		} */
 		
 		
 		if (product.id == 0) {
