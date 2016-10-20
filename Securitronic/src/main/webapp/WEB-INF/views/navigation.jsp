@@ -8,6 +8,7 @@
 				<li><a href="login" method = "post">Login</a></li>
 				<li><a href="register">Register</a></li>
 				<li><a href="viewall">View All Products</a></li>
+				<li><a href="adminview">Admin</a></li>
 			</ul>
 		</div>
 

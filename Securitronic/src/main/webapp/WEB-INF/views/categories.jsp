@@ -7,7 +7,7 @@
 					<div class="caption">
 						<h3>CCTV Surviellance</h3>
 
-						<a href="" class="btn btn-primary" role="button">Show More</a>
+						<a href="viewall" class="btn btn-primary" role="button">Show More</a>
 					</div>
 				</div>
 			</div>
@@ -18,7 +18,7 @@
 						alt="firealarm System" >
 					<div class="caption">
 						<h3>Fire Alarm</h3>
-						<a href="" class="btn btn-primary" role="button">Show More</a>
+						<a href="viewall" class="btn btn-primary" role="button">Show More</a>
 					</div>
 				</div>
 			</div>
@@ -29,7 +29,7 @@
 					<div class="caption">
 						<h3>Burglar Alarm</h3>
 
-						<a href="" class="btn btn-primary" role="button">Show More</a>
+						<a href="viewall" class="btn btn-primary" role="button">Show More</a>
 					</div>
 				</div>
 			</div>

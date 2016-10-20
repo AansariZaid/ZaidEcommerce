@@ -12,8 +12,8 @@
 
 		<%@include file="categories.jsp"%>
 
-		<%@include file="footer.jsp"%>
-	</div>
 
+	</div>
+	<%@include file="footer.jsp"%>
 </body>
 </html>

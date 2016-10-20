@@ -21,7 +21,8 @@
 					more</a>
 			</p>
 		</div>
-	<%@include file= "footer.jsp" %>
+	
 </div>
 </body>
 </html>
+<%@include file= "footer.jsp" %>
